@@ -1,0 +1,227 @@
+body,html, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+body{
+    background: url(../assets/imagens/capa.png),
+                url(../assets/imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+                background-attachment: fixed;
+}
+
+/*Barra de Navegaão */ 
+
+nav.navbar-transparente{
+    background: black;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#1ed760;
+}
+.navbar-light .navbar-toggler{
+    color:rgba(255,255,255,.5);
+    border-color:white;
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 9px 9px;
+}
+
+.capa{
+    text-align: center;
+}
+.cor1{
+    color: /*#1ed760*/ white;
+}
+
+.btn-custom{
+    border-radius: 500px ;
+    color:#1ed760; 
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    text-transform: uppercase;
+    transition: background 0.4s,color 0.4s;
+    
+    
+    
+
+}
+.btn-custom:hover{
+    color: #1ed760;
+}
+.btn-preto{
+    background-color:black;;
+    color:white;
+    border-radius: 500px ;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+}
+
+.btn-preto:hover{
+    background-color:black;
+    border-radius: 500px ;
+    color:#1ed760;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+}
+
+.ajustes{
+    width: 275px;
+    height: 275px;
+}
+.albuns{
+    padding:10px 0;
+}
+#servicos{
+    background:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos h2,h3{
+    color:#7c25f8;
+}
+#recuros h3{
+    color: #9bf0e1;
+}
+#recursos h2{
+    color: white;
+}
+#recursos p{
+    color: white;
+}
+
+#servicos{
+    background:white;
+}
+.caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    h1{
+        font-size: 3em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    h1{
+        font-size: 4em;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    h1{
+        font-size: 5em;
+    }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 6em;
+    }
+ }
+
+ footer{
+     background: #000;
+     padding: 50px 0px 20px;
+     position: relative;
+ }
+ footer h4{
+     color: #919496;
+     font-size: 0.8em;
+     text-transform: uppercase;
+ }
+ footer .navbar-nav a{
+     color: white;
+ }
+
+ footer .navbar-nav a:hover{
+    color:#1ed760;
+    text-decoration:none ;
+}
+
+.redesocial{
+    padding-left:25px ;
+    color: white;
+    size: 50%;
+}
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(70, 69, 69);
+    
+}
+
+.redesocial:hover{
+    color:#1ed760 ;
+}
+
+.rd{
+    padding-top: 30px;
+}
+.distancia{
+    margin-left: 25px;
+}
+
+.img-container{
+
+    overflow: hidden;
+    padding: 25px 25px;
+ }
+ 
+ .img-container img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .img-container:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+ 
+.txt-container{
+    overflow: hidden;
+}
+.txt-container h1{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.txt-container:hover h1{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
