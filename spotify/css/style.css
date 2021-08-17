@@ -225,3 +225,8 @@ nav.navbar-transparente{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
  }
+
+ .distancia{
+     padding-left: 35px;
+     padding-right: 35px;
+ }
